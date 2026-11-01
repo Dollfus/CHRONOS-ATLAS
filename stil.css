@@ -1,0 +1,100 @@
+.tarih-form {
+    background-color: #162B35;
+    border: 1px solid #365963;
+    border-radius: 15px;
+    padding: 20px;
+
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+}
+
+.form-grup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tarih-form input,
+.tarih-form select {
+    padding: 10px;
+    border: 1px solid #365963;
+    border-radius: 7px;
+    background-color: #203944;
+    color: #E8F0EA;
+}
+
+.tarih-form button {
+    padding: 10px 18px;
+    background-color: #77C7B7;
+    color: #0D1B24;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.tarih-form input {
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.tarih-form select {
+    width: 200px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-color: #0D1B24;
+    color: #E8F0EA;
+    font-family: Helvetica, sans-serif;
+}
+
+.kutu img {
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+}
+
+.ust-menu {
+    display: flex;
+
+    background-color: #162B35;
+    border-bottom: 1px solid #365963;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 30px;
+
+    border-bottom: 1px solid #365963;
+}
+
+.logo {
+    color: #77C7B7;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.menu-linkleri {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu-linkleri a {
+    color: #E8F0EA;
+    text-decoration: none;
+    font-size: 15px;
+
+    transition: 0.3s;
+}
+
+.menu-linkleri a:hover {
+    color: #77C7B7;
+}

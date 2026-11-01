@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stil.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+     <nav class="ust-menu">
+
+    <div class="logo">
+        CHRONOS
+    </div>
+
+    <div class="menu-linkleri">
+
+        <a href="#anasayfa">Anasayfa</a>
+
+        <a href="#techizatlar">Teçhizatlar</a>
+
+        <a href="#trench-crusade">Trench Crusade</a>
+
+    </div>
+</nav>
+    <h2 class="sayfa-baslik">Tarihi Keşfet</h2>
+
+   <form class="tarih-form">
+    <div class="form-grup">
+        <label for="tarih">Tarih seç:</label>
+        <input
+        type="number"
+        id="tarih"
+        placeholder="Örneğin 1923"
+        min="0"
+        max="2026"
+        required>
+    </div>
+    <div class="form-grup">
+        <label for="donem">Dönem:</label>
+
+        <select id="donem">
+            <option value="BCE">Milattan Önce</option>
+            <option value="CE">Milattan Sonra</option>
+        </select>
+    </div>
+    <button type="submit">Haritayı göster</button>
+   </form>
+
+    <div class="kutu">Dünya Haritası
+        <img src="dunya-haritası.svg" alt="Dünya Haritası">
+    </div>
+
+    <section id="techizatlar">
+    <h2>Teçhizatlar</h2>
+</section>
+
+<section id="trench-crusade">
+    <h2>Trench Crusade</h2>
+</section>
+
+
+    
+</body>
+</html>
