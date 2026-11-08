@@ -98,3 +98,21 @@ body {
 .menu-linkleri a:hover {
     color: #77C7B7;
 }
+
+#tarih-sonucu {
+    background-color: #162B35;
+    color: #77C7B7;
+
+    border: 1px solid #365963;
+    border-radius: 10px;
+
+    padding: 15px 20px;
+    margin: 20px 30px;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#tarih-sonucu:empty {
+    display: none;
+}
