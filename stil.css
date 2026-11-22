@@ -54,10 +54,23 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-.kutu img {
+/* yeni kısım 1 harita düzenleme */
+.kutu {
     width: 90%;
     max-width: 1200px;
+
+    margin: 30px auto;
+    overflow: hidden;
+
+        border: 1px solid #365963;
+        border-radius: 15px;
+    }
+
+.kutu object {
+    display: block;
+    width: 100%;
     height: auto;
+    border: none;
 }
 
 .ust-menu {
@@ -115,4 +128,24 @@ body {
 
 #tarih-sonucu:empty {
     display: none;
+}
+
+/* Yeni kısım 2  harita altında ki küçük bildirim bölmesi */
+#ulke-bilgisi {
+    width: 90%;
+    max-width: 1200px;
+    box-sizing: border-box;
+
+    margin: 20px auto;
+    padding: 16px 20px;
+
+    background-color: #162B35;
+    color: #77C7B7;
+
+    border: 1px solid #365963;
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: bold;
+    min-height: 55px;
 }
